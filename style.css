@@ -1,0 +1,51 @@
+* {
+  background-color: rgb(158, 158, 187);
+}
+
+header > img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+article > img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 1em;
+}
+
+nav li {
+  display: inline-block;
+}
+nav ul {
+  text-align: center;
+  margin-right: 2em;
+}
+
+section {
+  display: flex;
+}
+
+article {
+  flex: 1;
+  
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+footer div {
+  margin: 2em;
+}
+
+hr {
+  width: 20em;
+  color: rgb(21, 19, 19);
+}
+
+.copyright {
+  text-align: right;
+}
